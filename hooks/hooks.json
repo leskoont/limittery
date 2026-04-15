@@ -1,0 +1,17 @@
+{
+  "description": "Limittery: warn when 5-hour rate limit exceeds 80%",
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python ${CLAUDE_PLUGIN_ROOT}/scripts/check_limit.py",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

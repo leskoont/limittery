@@ -1,0 +1,14 @@
+{
+  "name": "limittery",
+  "version": "1.0.0",
+  "description": "Real-time graphical display of Claude Code token rate limits — 5-hour and 7-day usage bars in your statusline.",
+  "author": {
+    "name": "leskoont",
+    "email": "max@leskoont.su"
+  },
+  "repository": "https://github.com/leskoont/limittery",
+  "license": "MIT",
+  "keywords": ["tokens", "rate-limit", "usage", "statusline", "monitor"],
+  "skills": ["./skills"],
+  "hooks": "./hooks/hooks.json"
+}

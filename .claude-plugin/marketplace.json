@@ -1,0 +1,26 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "limittery",
+  "metadata": {
+    "description": "Real-time token rate-limit visualisation for Claude Code"
+  },
+  "owner": {
+    "name": "leskoont",
+    "email": "max@leskoont.su"
+  },
+  "plugins": [
+    {
+      "name": "limittery",
+      "description": "Always-visible statusline bars showing 5-hour and 7-day Claude Code rate-limit usage, plus a /limittery command for a detailed ASCII dashboard.",
+      "version": "1.0.0",
+      "author": {
+        "name": "leskoont",
+        "email": "max@leskoont.su"
+      },
+      "source": "./",
+      "category": "monitoring",
+      "homepage": "https://github.com/leskoont/limittery",
+      "tags": ["tokens", "rate-limit", "usage", "statusline", "monitor"]
+    }
+  ]
+}
